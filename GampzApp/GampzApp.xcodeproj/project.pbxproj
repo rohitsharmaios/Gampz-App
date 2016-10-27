@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		755DF7231DC1D42C005A7DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 755DF7221DC1D42C005A7DEC /* main.m */; };
-		755DF7261DC1D42C005A7DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 755DF7251DC1D42C005A7DEC /* AppDelegate.m */; };
-		755DF7291DC1D42C005A7DEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755DF7281DC1D42C005A7DEC /* ViewController.m */; };
-		755DF72C1DC1D42C005A7DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755DF72A1DC1D42C005A7DEC /* Main.storyboard */; };
-		755DF72E1DC1D42C005A7DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755DF72D1DC1D42C005A7DEC /* Assets.xcassets */; };
-		755DF7311DC1D42C005A7DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755DF72F1DC1D42C005A7DEC /* LaunchScreen.storyboard */; };
+		755DF7481DC1DFE4005A7DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755DF7471DC1DFE4005A7DEC /* AppDelegate.swift */; };
+		755DF74A1DC1DFE4005A7DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755DF7491DC1DFE4005A7DEC /* ViewController.swift */; };
+		755DF74D1DC1DFE4005A7DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755DF74B1DC1DFE4005A7DEC /* Main.storyboard */; };
+		755DF74F1DC1DFE4005A7DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755DF74E1DC1DFE4005A7DEC /* Assets.xcassets */; };
+		755DF7521DC1DFE4005A7DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755DF7501DC1DFE4005A7DEC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		755DF71E1DC1D42B005A7DEC /* GamzaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamzaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		755DF7221DC1D42C005A7DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		755DF7241DC1D42C005A7DEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		755DF7251DC1D42C005A7DEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		755DF7271DC1D42C005A7DEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		755DF7281DC1D42C005A7DEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		755DF72B1DC1D42C005A7DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		755DF72D1DC1D42C005A7DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		755DF7301DC1D42C005A7DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		755DF7321DC1D42C005A7DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755DF7441DC1DFE4005A7DEC /* GampzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GampzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		755DF7471DC1DFE4005A7DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		755DF7491DC1DFE4005A7DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		755DF74C1DC1DFE4005A7DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		755DF74E1DC1DFE4005A7DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		755DF7511DC1DFE4005A7DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		755DF7531DC1DFE4005A7DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		755DF71B1DC1D42B005A7DEC /* Frameworks */ = {
+		755DF7411DC1DFE4005A7DEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,82 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		755DF7151DC1D42B005A7DEC = {
+		755DF73B1DC1DFE3005A7DEC = {
 			isa = PBXGroup;
 			children = (
-				755DF7201DC1D42B005A7DEC /* GamzaApp */,
-				755DF71F1DC1D42B005A7DEC /* Products */,
+				755DF7461DC1DFE4005A7DEC /* GampzApp */,
+				755DF7451DC1DFE4005A7DEC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		755DF71F1DC1D42B005A7DEC /* Products */ = {
+		755DF7451DC1DFE4005A7DEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				755DF71E1DC1D42B005A7DEC /* GamzaApp.app */,
+				755DF7441DC1DFE4005A7DEC /* GampzApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		755DF7201DC1D42B005A7DEC /* GamzaApp */ = {
+		755DF7461DC1DFE4005A7DEC /* GampzApp */ = {
 			isa = PBXGroup;
 			children = (
-				755DF7241DC1D42C005A7DEC /* AppDelegate.h */,
-				755DF7251DC1D42C005A7DEC /* AppDelegate.m */,
-				755DF7271DC1D42C005A7DEC /* ViewController.h */,
-				755DF7281DC1D42C005A7DEC /* ViewController.m */,
-				755DF72A1DC1D42C005A7DEC /* Main.storyboard */,
-				755DF72D1DC1D42C005A7DEC /* Assets.xcassets */,
-				755DF72F1DC1D42C005A7DEC /* LaunchScreen.storyboard */,
-				755DF7321DC1D42C005A7DEC /* Info.plist */,
-				755DF7211DC1D42C005A7DEC /* Supporting Files */,
+				755DF7471DC1DFE4005A7DEC /* AppDelegate.swift */,
+				755DF7491DC1DFE4005A7DEC /* ViewController.swift */,
+				755DF74B1DC1DFE4005A7DEC /* Main.storyboard */,
+				755DF74E1DC1DFE4005A7DEC /* Assets.xcassets */,
+				755DF7501DC1DFE4005A7DEC /* LaunchScreen.storyboard */,
+				755DF7531DC1DFE4005A7DEC /* Info.plist */,
 			);
-			path = GamzaApp;
-			sourceTree = "<group>";
-		};
-		755DF7211DC1D42C005A7DEC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				755DF7221DC1D42C005A7DEC /* main.m */,
-			);
-			name = "Supporting Files";
+			path = GampzApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		755DF71D1DC1D42B005A7DEC /* GamzaApp */ = {
+		755DF7431DC1DFE4005A7DEC /* GampzApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 755DF7351DC1D42C005A7DEC /* Build configuration list for PBXNativeTarget "GamzaApp" */;
+			buildConfigurationList = 755DF7561DC1DFE4005A7DEC /* Build configuration list for PBXNativeTarget "GampzApp" */;
 			buildPhases = (
-				755DF71A1DC1D42B005A7DEC /* Sources */,
-				755DF71B1DC1D42B005A7DEC /* Frameworks */,
-				755DF71C1DC1D42B005A7DEC /* Resources */,
+				755DF7401DC1DFE4005A7DEC /* Sources */,
+				755DF7411DC1DFE4005A7DEC /* Frameworks */,
+				755DF7421DC1DFE4005A7DEC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GamzaApp;
-			productName = GamzaApp;
-			productReference = 755DF71E1DC1D42B005A7DEC /* GamzaApp.app */;
+			name = GampzApp;
+			productName = GampzApp;
+			productReference = 755DF7441DC1DFE4005A7DEC /* GampzApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		755DF7161DC1D42B005A7DEC /* Project object */ = {
+		755DF73C1DC1DFE3005A7DEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = CSPC143;
 				TargetAttributes = {
-					755DF71D1DC1D42B005A7DEC = {
+					755DF7431DC1DFE4005A7DEC = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 755DF7191DC1D42B005A7DEC /* Build configuration list for PBXProject "GamzaApp" */;
+			buildConfigurationList = 755DF73F1DC1DFE3005A7DEC /* Build configuration list for PBXProject "GampzApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -122,55 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 755DF7151DC1D42B005A7DEC;
-			productRefGroup = 755DF71F1DC1D42B005A7DEC /* Products */;
+			mainGroup = 755DF73B1DC1DFE3005A7DEC;
+			productRefGroup = 755DF7451DC1DFE4005A7DEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				755DF71D1DC1D42B005A7DEC /* GamzaApp */,
+				755DF7431DC1DFE4005A7DEC /* GampzApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		755DF71C1DC1D42B005A7DEC /* Resources */ = {
+		755DF7421DC1DFE4005A7DEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				755DF7311DC1D42C005A7DEC /* LaunchScreen.storyboard in Resources */,
-				755DF72E1DC1D42C005A7DEC /* Assets.xcassets in Resources */,
-				755DF72C1DC1D42C005A7DEC /* Main.storyboard in Resources */,
+				755DF7521DC1DFE4005A7DEC /* LaunchScreen.storyboard in Resources */,
+				755DF74F1DC1DFE4005A7DEC /* Assets.xcassets in Resources */,
+				755DF74D1DC1DFE4005A7DEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		755DF71A1DC1D42B005A7DEC /* Sources */ = {
+		755DF7401DC1DFE4005A7DEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				755DF7291DC1D42C005A7DEC /* ViewController.m in Sources */,
-				755DF7261DC1D42C005A7DEC /* AppDelegate.m in Sources */,
-				755DF7231DC1D42C005A7DEC /* main.m in Sources */,
+				755DF74A1DC1DFE4005A7DEC /* ViewController.swift in Sources */,
+				755DF7481DC1DFE4005A7DEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		755DF72A1DC1D42C005A7DEC /* Main.storyboard */ = {
+		755DF74B1DC1DFE4005A7DEC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				755DF72B1DC1D42C005A7DEC /* Base */,
+				755DF74C1DC1DFE4005A7DEC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		755DF72F1DC1D42C005A7DEC /* LaunchScreen.storyboard */ = {
+		755DF7501DC1DFE4005A7DEC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				755DF7301DC1D42C005A7DEC /* Base */,
+				755DF7511DC1DFE4005A7DEC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		755DF7331DC1D42C005A7DEC /* Debug */ = {
+		755DF7541DC1DFE4005A7DEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,10 +207,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		755DF7341DC1D42C005A7DEC /* Release */ = {
+		755DF7551DC1DFE4005A7DEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,53 +249,56 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		755DF7361DC1D42C005A7DEC /* Debug */ = {
+		755DF7571DC1DFE4005A7DEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GamzaApp/Info.plist;
+				INFOPLIST_FILE = GampzApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cs.GamzaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.GampzApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		755DF7371DC1D42C005A7DEC /* Release */ = {
+		755DF7581DC1DFE4005A7DEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GamzaApp/Info.plist;
+				INFOPLIST_FILE = GampzApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cs.GamzaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.GampzApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		755DF7191DC1D42B005A7DEC /* Build configuration list for PBXProject "GamzaApp" */ = {
+		755DF73F1DC1DFE3005A7DEC /* Build configuration list for PBXProject "GampzApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				755DF7331DC1D42C005A7DEC /* Debug */,
-				755DF7341DC1D42C005A7DEC /* Release */,
+				755DF7541DC1DFE4005A7DEC /* Debug */,
+				755DF7551DC1DFE4005A7DEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		755DF7351DC1D42C005A7DEC /* Build configuration list for PBXNativeTarget "GamzaApp" */ = {
+		755DF7561DC1DFE4005A7DEC /* Build configuration list for PBXNativeTarget "GampzApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				755DF7361DC1D42C005A7DEC /* Debug */,
-				755DF7371DC1D42C005A7DEC /* Release */,
+				755DF7571DC1DFE4005A7DEC /* Debug */,
+				755DF7581DC1DFE4005A7DEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 755DF7161DC1D42B005A7DEC /* Project object */;
+	rootObject = 755DF73C1DC1DFE3005A7DEC /* Project object */;
 }
